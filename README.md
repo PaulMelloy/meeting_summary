@@ -40,3 +40,7 @@ ollama run llama3.2 "Ollama propt here (ie. summarise this meeting transcript in
 Input_meeting_transcript_file.vtt \
 > meetingsummaryoutput.txt
 ```
+
+The first input is the prompt to the LLM,  
+then specify the meeting trascript file to input to the LLM,  
+finally pipe that to a output file.  
