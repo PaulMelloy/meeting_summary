@@ -9,7 +9,7 @@ It is possible to run this on Windows, however the syntax will vary.
 ## Requirements  
 ### Install ollama  
 
-Go to [Ollamas website](ollama.com) [ollama.com](ollama.com) and download ollama
+Go to Ollamas website [ollama.com] [ollama.com](ollama.com) and download ollama
 for your operating system.  
 
 Once installed verify the installation and that ollama is running by going to [http://localhost:11434/](). It should say "Ollama is running".  
