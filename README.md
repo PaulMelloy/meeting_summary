@@ -33,21 +33,10 @@ Try asking it a question like "hello how are you today?".
 
 exit discussion with the command `/bye`  
 
-### Other requirements
+### Running meeting summary
 
-- install python  
 ```sh
-# Check if python is installed by quering the installed version
-python --version
-
-# If not installed
-sudo apt install python3.11
-# install python package installer
-sudo apt install python3-pip
+ollama run llama3.2 "Ollama propt here (ie. summarise this meeting transcript into a list of ten discussion points)" < \
+Input_meeting_transcript_file.vtt \
+> meetingsummaryoutput.txt
 ```
-#### Python packages  
-```sh
-pip install vttformatter
-```
-
-
